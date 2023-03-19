@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Escena de Arte Interactivo</title>
+    <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+  </head>
+  <body>
+    <a-scene>
+      <!--Crea un plano como base para los objetos -->
+      <a-plane position="0 0 -4" rotation="-90 0 0" width="10" height="10" color="#333333"></a-plane>
+      
+      <!--Crea una esfera-->
+      <a-sphere position="0 1.25 -5" radius="1" color="#EF2D5E" ></a-sphere>
+      
+      <!--Crear un cilindro-->
+      <a-cylinder position="-2 1.25 -5" radius="0.75" height="2" color="#FFC65D"></a-cylinder>
+      
+      <!--Crear una caja-->
+      <a-box position="2 1.25 -5" width="1" height="1" depth="1" color="#007ACC"></a-box>
+    </a-scene>
+  </body>
+</html>
