@@ -8,31 +8,9 @@
   </head>
   <body>
     <a-scene>
-      <!--Cielo-->
-      <a-sky color="#000000"></a-sky>
-
-      <a-entity position="0 0 -5">
-        <a-entity position="-3 1 -2">
-          <a-box position="0 0.5 0" scale="1 1 0.5" color="#FCB900"></a-box>
-          <a-box position="0 1.5 0" scale="1 1 0.5" color="#00D084"></a-box>
-          <a-box position="0 2.5 0" scale="1 1 0.5" color="#2E7D32"></a-box>
-        </a-entity>
-
-        <a-entity position="-1 1 -2">
-          <a-box position="0 0.5 0" scale="2 2 0.5" color="#FCB900"></a-box>
-          <a-box position="0 2.5 0" scale="2 2 0.5" color="#2E7D32"></a-box>
-        </a-entity>
-
-        <a-entity position="1 1 -2">
-          <a-box position="0 0.5 0" scale="1 2 0.5" color="#FCB900"></a-box>
-          <a-box position="0 2.5 0" scale="1 2 0.5" color="#2E7D32"></a-box>
-        </a-entity>
-
-        <a-entity position="3 1 -2">
-          <a-box position="0 0.5 0" scale="2 1 0.5" color="#FCB900"></a-box>
-          <a-box position="0 2.5 0" scale="2 1 0.5" color="#2E7D32"></a-box>
-        </a-entity>
-      </a-entity>
+      <a-assets>
+        <a-asset-item id="myModel" src="scene.gltf"></a-asset-item>
+      </a-assets>
     </a-scene>
   </body>
 </html>
